@@ -1,0 +1,83 @@
+﻿*{margin: 0px; padding: 0px;}
+
+body {
+background-color: #d9e7e8;
+font-family:Helverical,Arial, Sans-Serif; /*font-family:'Lucida Sans Unicode', Lucida Console, Lucida Grande, Sans-Serif;*/
+font-size: 12px;
+color: #686868;
+font-weight: normal;
+width: 100%;
+margin: 0;
+padding: 0;
+font-size: 14px; letter-spacing: normal;
+}
+
+/*generic*/
+
+.inlineBlock{
+display:-moz-inline-stack;
+display:inline-block;
+zoom:1;
+*display:inline;}
+
+.norm{ font-weight: normal;}
+.bold{ font-weight: bold;}
+.hide{display: none;}
+.ovHid{height: 0px;overflow:hidden;}
+.ovVis{overflow:visible;}
+a img{ border: none; margin: 0; padding: 0;}
+a:hover{ text-decoration: underline;}
+
+/* Body -------------*/
+
+#container{width: 994px;margin: 0 auto;overflow: hidden;background-color: #f3f3f3;}
+.innerCont{width: 974px;margin: 0 10px;overflow: hidden;text-align: center;background-color: #fff;}
+
+.hospitalsTop{ margin: 0 3px; display:inline;}
+#hsc{color:#ba8748;}
+#port{color:#b1005d;}
+#prin{color:#1dbeca;}
+#uch{color:#0055a5;}
+
+#mainLogos{ margin: 53px 0px 48px 0px;} #mainLogos img{vertical-align: middle;} #hcaLogo{margin-right:86px;}
+
+h1{font-size: 14px; color:#004b63; font-weight: normal; margin-bottom: 22px; letter-spacing:0.5px;}
+#box1,#box2{display: inline;width:50%;}
+#toRegister{display: inline; line-height: 29px; vertical-align:middle;letter-spacing:0.5px; text-align:center; margin-left:200px;}
+.field1{display: inline;
+width:239px;height: 22px;
+border: solid 1px #ababab;
+color: #b3b3b3;vertical-align:middle;letter-spacing:0.5px;
+margin:none; padding-top:5px; padding-left:8px;} .noPad{padding-top:0px ! Important;padding-bottom:0px ! Important;}
+
+
+#formHolder,#formHolder2{width: 946px; padding: 10px 0px; margin: 0px 10px;} .formHolder{ border-bottom: solid 1px #ababab;}
+.leftColFrm,.rightColFrm{ width: 452px; margin-left:9px; padding: 10px 10px 10px 0;}.rightColFrm{ text-align:left;} .leftColFrm{float:left;}
+.leftColFrm .field1,.rightColFrm .field1,#attendOnlineLabel{display:block; margin-bottom:10px; margin-left:0px;} .leftColFrm .field1,#attendOnlineLabel{margin-left:200px;}
+#register{margin-left:194px; margin-top:10px;} 
+#attendOnlineLabel{display:block;width:239px;height: 22px;border: solid 1px #fff;padding-top:5px; padding-left:8px;vertical-align:middle;text-align: left;} 
+.datesLabel{font-size:11px;} label{line-height:13px;}
+
+ul{height:42px; min-height:42px; margin: 32px 10px 0px 10px;}
+li{list-style:none; display: inline; width: 155px; height:42px; margin-right:3px; float: left;}
+.buttons{}.pages{}
+
+#contHolder{width: 946px; padding: 10px 0px; border-top: solid 3px #004964; border-bottom: solid 3px #004964; margin: 0px 10px 80px 10px; text-align: right; position:relative;}
+.leftCol,.rightCol{ text-align:left;width: 451px; margin-left:10px; padding: 10px 9px 10px 0; text-align: left;}
+.leftCol{border-right: dotted 1px #c2c2c2;float:left;} 
+.rightCol{padding-top:65px;}
+.justOne{ text-align:left;width: 926px; margin-left:10px; padding: 10px 10px 10px 0;}
+#footer{position:absolute; right:1px; bottom:-70px;}
+
+#contHolder p{font-size: 11.5px; line-height:15.5px;}#contHolder a{color:#1fbeca; text-decoration: none;} #contHolder a:hover{text-decoration: underline;} #contHolder a:visited{color:#1fbeca;}
+h2{font-size:15px; color: #5e5e5e; margin-bottom:36px;}
+h3{font-size:11.5px; color: #004b63; font-weight:bold;}
+.none{margin:0px;}
+.agendah3{margin-top:25px;} 
+.topicsh3{margin-bottom:25px;} .topicsp{margin-bottom:35px;} 
+.calenderCol2{margin-top:39px;}
+.speakerBox{margin-bottom:44px;} .speakerBox h3{font-size:14px; color: #cf4439; font-weight:normal; padding-top:8px;} .speakerBox img{float:left; margin-right: 10px;}.speakerBox10{margin-bottom:10px ! Important;} .speakerBoxlast{margin-bottom:132px ! Important;}
+.qual{font-size:14px; color: #007cae; font-weight:normal;}.nhs{ padding-bottom:8px;}
+.red{color: #cf4439;}.endoList{margin-bottom:10px;} 
+
+
