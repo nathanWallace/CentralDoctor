@@ -71,12 +71,12 @@ display: inline;vertical-align: bottom;
 ul{height:42px; min-height:42px; margin: 0px auto;}
 li{list-style:none; display: inline; width: 158px; height:42px; min-width: 158px; min-height:42px; float: left;}
 li a{width: 158px; height:42px; min-width: 158px; min-height:42px;background-image: url(img/nav.png); display: block;}
-li a#appoint{background-position: 0px 0px; min-width: 159px ! Important;}/* li a#appoint:hover{background-position: 0px 45px; min-width: 159px ! Important;}*/ #appointLi{ min-width: 159px ! Important;}
-li a#consultant{background-position:792px 0px;}/* li a#consultant:hover{background-position:792px 45px;}*/
-li a#forms{background-position: 634px 0px;}/*li a#forms:hover{background-position: 634px 45px;}*/
-li a#services{background-position: 476px 0px;}/*li a#services:hover{background-position: 476px 45px;}*/
-li a#learning{background-position: 318px 0px;}/*li a#learning:hover{background-position: 318px 45px;}*/
-li a#contact{background-position: 160px 0px;min-width: 160px;}/*li a#contact:hover{background-position: 160px 45px;min-width: 160px;}*/
+li a#appoint{background-position: 0px 0px; min-width: 159px ! Important;} li a#appoint:hover{background-position: 0px 45px; min-width: 159px ! Important;} #appointLi{ min-width: 159px ! Important;}
+li a#consultant{background-position:792px 0px;} li a#consultant:hover{background-position:792px 45px;}
+li a#forms{background-position: 634px 0px;} li a#forms:hover{background-position: 634px 45px;}
+li a#services{background-position: 476px 0px;} li a#services:hover{background-position: 476px 45px;}
+li a#learning{background-position: 318px 0px;} li a#learning:hover{background-position: 318px 45px;}
+li a#contact{background-position: 160px 0px;min-width: 160px;} li a#contact:hover{background-position: 160px 45px;min-width: 160px;}
 .buttons{}
 
 /* menus -------------*/

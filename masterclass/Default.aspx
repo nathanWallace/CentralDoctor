@@ -30,7 +30,7 @@
                   var filter = $('#yourName').val();
 
                   if (filter.length >= 2) {
-                      $('#formHolder').animate({ 'height': '250px' }, 1000).attr('class', 'formHolder');
+                      $('#formHolder').animate({ 'height': '285px' }, 1000).attr('class', 'formHolder');
                   }
               });
 
@@ -79,13 +79,14 @@
     </div>
 
     <div class="rightColFrm inlineBlock noPad">
-   <input id="yourName" class="field1" type="text" value="Full name" />
+   <input id="yourName" class="field1" type="text" value="First name" />
     </div>
    </div>  
       
 
    <div id="formHolder">
     <div class="leftColFrm inlineBlock">
+    <input id="surname" class="field1" type="text" value="Surname" />
     <input id="tel" class="field1" type="text" value="Telephone" />
     <input id="email" class="field1" type="text" value="Email" />
     <input id="GMC" class="field1" type="text" value="Dietary requirements" />
@@ -93,6 +94,7 @@
     </div>
     
     <div class="rightColFrm inlineBlock">
+    <input id="practice" class="field1" type="text" value="Practice name" />
     <input id="add1" class="field1" type="text" value="Address 1" />
     <input id="add2" class="field1" type="text" value="Address 2" />
     <input id="city" class="field1" type="text" value="City" />
@@ -260,9 +262,23 @@ Gastroenterology and has also focused widely on Paediatric Hepatology. <a class=
     </div>
     
        <div id="educationalTab" class="pages">
-    <div class="justOne">
+  <div class="leftCol inlineBlock">
     <h2>Educational objectives</h2>
-    <p>To provide GPs with an update on developments in Endoscopy in 2010 and how this can help in their practices. CPD applied for.</p>
+    
+    <h3 class="eduFirst">To Understand:</h3>
+    <p class="endoList">1) The natural history of tumourigenesis in the oesophagus and colon from both a
+   molecular and endoscopic perspective;</p>
+    <p class="endoList">2) How an individual can minimise their risk of developing gastrointestinal cancer;</p>
+    <p class="endoList">3) The most appropriate methods for population screening of oesophageal and colon 
+   cancer;</p>
+    <p class="endoList eduLast">4) The different endoscopic methods used to treat early precancerous gastrointestinal
+   lesions.</p> 
+  </div>
+    <div class="rightCol inlineBlock">
+ <h3 class="endoList">OVERALL THEME:<br /><span class="norm">Screening and Endoscopic treatment of Barrett’s Oesophagus, Oesophageal and Colorectal Cancer, Endoscopic Submucosal Dissection (ESD) Endoscopic Mucosal Resection (EMR), Inflammatory Bowel Disease (IBD) Video Capsule Endoscopy (VCE)</span></h3>
+    <p class="endoList">The Masterclass aims to highlight the many roles of endoscopy in the diagnosis and treatment of gastrointesinal disease. Over the last decade significant technological advancements have been made in the design of both endoscopes and endoscopic equipment, ever increasing the procedural capabilities. Confocal endoscopy, narrow band imaging, auto fluorescence, high definition, zoom endoscopy, endoscopic ultrasound, wireless capsule endoscopy; the list is almost endless, but how can these advancements be used to help your patients?</p> 
+    <p class="endoList">Populations of 'healthy' individuals can be endoscopically screened for precancerous and cancerous gastrointestinal lesions and both may now be treated at the time of gastroscopy and colonoscopy using surgical techniques. The earlier these lesions are detected, the better the patient's outcome. Chronic inflammatory conditions within the gastrointestinal tract are often associated with an increased risk of cancer; endoscopy is central in their surveillance and increasingly used in their treatment, but how frequently should these examinations be performed and with what form of endoscopy? When our time comes we would all like undergo full endoscopic examination with swallow a tablet size camera, but how far away from this are we?  What therapeutic interventions are possible? Endoscopy is an extremely powerful tool and we hope to outline how it can be most appropriately employed in different patient groups.</p>
+ 
     </div>
     </div>
     
